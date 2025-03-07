@@ -57,7 +57,7 @@ function setup() {
   }
   */
   player1.makeSprite();
- // tester.loop();
+ tester.loop();
 }
 //Global Variables
 if("variables"=="variables"){
