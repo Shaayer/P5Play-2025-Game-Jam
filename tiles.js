@@ -389,9 +389,6 @@ if(lock!=-1&&lock!=5){
 }
 //Pressing
 function mousePressed(){
-  if (tester && !tester.isPlaying()) {
-        tester.loop();
-    }
   if(levelEdit){
     
     let at = -1;

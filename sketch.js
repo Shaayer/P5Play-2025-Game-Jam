@@ -57,12 +57,12 @@ function setup() {
   }
   */
   
-  let playButton = createButton("Play Music");
-    playButton.mousePressed(() => {
-        if (!song.isPlaying()) {
-            song.play();
-        }
-    });
+  // let playButton = createButton("Play Music");
+  //   playButton.mousePressed(() => {
+  //       if (!song.isPlaying()) {
+  //           song.play();
+  //       }
+  //   });
   
   player1.makeSprite();
  tester.loop();
