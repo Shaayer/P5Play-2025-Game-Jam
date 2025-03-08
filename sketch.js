@@ -56,6 +56,14 @@ function setup() {
    // blocks[blocks.length-1].moveLock = i;
   }
   */
+  
+  let playButton = createButton("Play Music");
+    playButton.mousePressed(() => {
+        if (!song.isPlaying()) {
+            song.play();
+        }
+    });
+  
   player1.makeSprite();
  tester.loop();
 }
