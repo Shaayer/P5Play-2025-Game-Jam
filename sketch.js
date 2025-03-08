@@ -68,7 +68,7 @@ var height = 600;
 //xaccel, drag, constantDrag, gravity, jumpStrength, MaxJumps, Xpos, Ypos, sizex, sizey, xvel(0), yvel(0), KeyMap, outline color
   //              xaccel -v codrag-v jump-v
 var player1 = new player(2.7,1.11,1.6,1.3,17,2,500,300,25,25,0,0,["up","left","down","right","w","a","s","d"],"rgb(149,255,241)"); //    drag-^ grav -^.maxj-^
-1
+
 /*
 //without presets
 var player1 = new player(2.2,1.06,1.4,0.8,18,2,200,- 50,25,25,0,0,["w","a","s","d"],"rgb(149,255,241)");
