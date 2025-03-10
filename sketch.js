@@ -3,17 +3,19 @@
 //Beyond Classes
 var tester;
 function preload(){
+  userStartAudio();
   sounds[0] = loadSound('Sound_FX/jump.wav');
   sheet = loadImage('game_assets/tiles1.png');
  // let url = 'https://drive.google.com/uc?id=17sSGoMwskMvRzk9sj1FiRv6qAx_4-7Uj&export=download';
  //tester = loadSound(url);
   //Musical+testtt2.wav
   //Game_Music2.wav
-  tester = loadSound('game_assets/Musical+testtt2.wav');
+  tester = loadSound('game_assets/Game_Music2.wav');
 }
 
 //Void Setup
 function setup() {
+  userStartAudio();
   createCanvas(1000,600)
    world.debug = true;
   rectMode(CENTER);
@@ -141,6 +143,7 @@ var preFrame = [false];
 
 //Void Draw
 function draw() {
+  userStartAudio();
   shake/=1.5;
   if(keyIsDown(220)){
     levelEdit = !levelEdit;
