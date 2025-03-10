@@ -67,7 +67,6 @@ function setup() {
   player1.makeSprite();
   userStartAudio();
  tester.loop();
-  f
 }
 //Global Variables
 if("variables"=="variables"){
