@@ -65,6 +65,7 @@ function setup() {
   //   });
   
   player1.makeSprite();
+  userStartAudio();
  tester.loop();
 }
 //Global Variables
